@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
@@ -15,7 +14,6 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app! test push</Text>
       <StatusBar style="auto" />
-<<<<<<< Updated upstream
     </View>
   );
 }
@@ -28,8 +26,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-=======
-    //</View>
-  );
-}
->>>>>>> Stashed changes
