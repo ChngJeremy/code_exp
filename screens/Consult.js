@@ -1,16 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-//import firebase from "../database/firebaseDB";
-import {MapView, Permissions} from 'expo';
+import * as React from 'react';
+import MapView from 'react-native-maps';
+import { StyleSheet, Text, View, Dimensions } from 'react-native';
 
-//const db = firebase.firestore().collection("consults");
-
-export default function Consult() {
-  render()
+export default function App() {
   return (
-      <MapView>
-        style={{flex:1}}
-      </MapView>
+    <View style={styles.container}>
+      <MapView style={styles.map} />
+    </View>
   );
 }
 
@@ -20,5 +16,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  map: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
   },
 });
