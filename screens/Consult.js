@@ -20,7 +20,7 @@ const MarkerOnMap = () => {
           coordinate={{latitude: 37.78825, longitude: 103.92588}}
           //image{{uri:'custom_pin_clinic 1'}}
           title= "YSL Bedok Clinic & Surgery"
-          description= "Wednesday
+          description="Wednesday
           8am–12:30pm
           2–5pm
           6:30–9:30pm
